@@ -1,0 +1,62 @@
+html {
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/756/1004/desktop-wallpaper-dark-ultra-minimalist.jpg");
+    background-size: 100%;
+    min-height: 100%
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    text-align: center;
+    margin: 10px;
+    background: none;
+    color: #9ACBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    margin-bottom: 45px;
+}
+
+.links figure img {
+    width: 166px;
+    height: 166px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid transparent;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: #90EE90;
+}
+
+.links figure:hover {
+    transform: scale(1.04);
+}
+
+.links figure img:hover {
+    outline: 2px solid white;
+    outline-offset: -0.5px;
+    border: 3px solid black;
+}
+
+.odin {
+    background-color: white;
+    }
