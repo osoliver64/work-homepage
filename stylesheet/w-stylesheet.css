@@ -3,6 +3,8 @@ html {
     background-size: cover;
     min-height: 100%;
     font-family: sans-serif;
+    height: auto;
+    width: auto;
 }
 
 header {
@@ -19,7 +21,7 @@ header {
     margin-bottom: 45px;
 }
 
-.links figure img {
+img {
     width: 166px;
     height: 166px;
     object-fit: cover;
