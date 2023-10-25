@@ -2,7 +2,7 @@ html {
     background-image: url(../images/background.jpg);
     background-size: cover;
     min-height: 100%;
-    font-family: sans-serif;
+    font-family: monospace, sans-serif;
     height: auto;
     width: auto;
 }
@@ -16,7 +16,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 60px;
-    font-family: 'Arial Narrow Bold', sans-serif;
+    font-family: monospace, 'Arial Narrow Bold', sans-serif;
     border-radius: 10px;
     margin-bottom: 45px;
 }
